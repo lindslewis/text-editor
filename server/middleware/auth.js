@@ -7,3 +7,10 @@ const jwt = require('jsonwebtoken');
 
 const secret = "this is the secret, bro";
 const expire = '1h';
+
+module.exports = {
+    authMidWare: function (req) {
+        // am I missing something here???
+        let token = req.body.token
+    }
+}
