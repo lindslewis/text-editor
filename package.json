@@ -15,8 +15,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^3.10.2",
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "graphql": "^16.6.0",
+    "graphql-shield": "^7.5.0",
+    "if-env": "^1.0.4",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
