@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'JATE',
+        title: 'jate',
       }),
 
       new InjectManifest({
@@ -32,7 +32,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         name: "Just Another Text Editor",
-        abbreviated_name: "JATE",
+        abbreviated_name: "jate",
         description: "Text editor that can be utilized both online and offline.",
         start_url: './',
         publicPath: './',
