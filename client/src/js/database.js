@@ -30,6 +30,8 @@ export const getDb = async () => {
   const request = save.getAll(1);
   const result = await request;
   console.log(`${result}`);
+
+  return result.value;
 }
 
   
